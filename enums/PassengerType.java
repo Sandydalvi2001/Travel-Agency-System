@@ -1,5 +1,5 @@
 package enums;
 
-enum PassengerType {
+public enum PassengerType {
     STANDARD, GOLD, PREMIUM
 }
