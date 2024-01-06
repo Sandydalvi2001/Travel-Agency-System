@@ -1,3 +1,4 @@
+package system;
 import java.util.ArrayList;
 import enums.PassengerType;
 import models.Activity;

@@ -1,3 +1,4 @@
+package system;
 import java.util.List;
 import models.Activity;
 import models.Destination;
@@ -17,7 +18,6 @@ public class TravelPackage {
         this.itinerary=itinerary;
         this.passengers=passengers;
     }
-
 
     public void addDestination(Destination destination)
     {
@@ -106,4 +106,25 @@ public class TravelPackage {
         return "Unknown";
     }
 
+
+    public String getName() {
+        return name;
+    }
+
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+
+    public List<Destination> getItinerary() {
+        return itinerary;
+    }
+
+
+    public List<Passenger> getPassengers() {
+        return passengers;
+    }
+
+    
 }
